@@ -12,11 +12,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    private var operator = "*"
+    private var oldNumber = ""
+    private var newOperator = true
+
     fun btnWriteNumber(view: View) {
+        if (newOperator) {
+            txtDisplay.setText("")
+        }
+        newOperator = false
+
         var btnChoose = view as Button
         var btnValue = txtDisplay.text.toString()
 
-        when(btnChoose.id) {
+        when (btnChoose.id) {
             btn0.id -> {
                 btnValue += "0"
             }
@@ -56,4 +65,48 @@ class MainActivity : AppCompatActivity() {
         }
         txtDisplay.setText(btnValue)
     }
+
+    fun btnOperator(view: View) {
+        var btnOperatorChoose = view as Button
+        when (btnOperatorChoose.id) {
+            btnDivided.id -> {
+                operator = "/"
+            }
+            btnMulti.id -> {
+                operator = "x"
+            }
+            btnSub.id -> {
+                operator = "-"
+            }
+            btnPlus.id -> {
+                operator = "+"
+            }
+        }
+        oldNumber = txtDisplay.text.toString()
+        newOperator = true
+    }
+
+    fun btnEquals(view: View) {
+        var newNumber = txtDisplay.text.toString()
+        var result: Double? = null
+
+        when(operator) {
+            "/" -> {
+                result = oldNumber.toDouble() / newNumber.toDouble()
+            }
+            "x" -> {
+                result = oldNumber.toDouble() * newNumber.toDouble()
+            }
+            "-" -> {
+                result = oldNumber.toDouble() - newNumber.toDouble()
+            }
+            "+" -> {
+                result = oldNumber.toDouble() + newNumber.toDouble()
+            }
+        }
+
+        txtDisplay.setText(result.toString())
+        newOperator = true
+    }
+
 }
