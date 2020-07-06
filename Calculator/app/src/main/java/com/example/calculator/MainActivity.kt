@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
         var newNumber = txtDisplay.text.toString()
         var result: Double? = null
 
-        when(operator) {
+        when (operator) {
             "/" -> {
                 result = oldNumber.toDouble() / newNumber.toDouble()
             }
@@ -109,4 +109,14 @@ class MainActivity : AppCompatActivity() {
         newOperator = true
     }
 
+    fun btnReset(view: View) {
+        txtDisplay.setText("0")
+        newOperator = true
+    }
+
+    fun btnModule(view: View) {
+        var result: Double = txtDisplay.text.toString().toDouble() / 100
+
+        txtDisplay.setText(result.toString())
+    }
 }
