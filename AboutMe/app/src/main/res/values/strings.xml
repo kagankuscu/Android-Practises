@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Kagan Kuscu</string>
+    <string name="yellow_star">Yellow Star</string>
+
+    <string name="bio">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        \nAliquam vitae leo tempor, pellentesque odio eget, malesuada metus. Morbi laoreet nibh
+        \nac urna pretium, a vestibulum arcu tincidunt. Pellentesque felis diam, accumsan at
+        \nefficitur eu, vestibulum non mauris. Mauris cursus non augue et fermentum.
+        \nAenean placerat urna orci, gravida varius est sollicitudin vel. Duis aliquam,
+        \ndiam id pretium tincidunt, eros tellus finibus odio, ac vestibulum lorem mauris
+        \nvel dolor. Pellentesque iaculis nulla eget cursus tincidunt. Quisque volutpat,
+        \nmauris a varius rhoncus, tortor orci mollis odio, sit amet maximus diam velit ac quam.
+        \nPellentesque consectetur nisl eget tortor pellentesque tempus. Phasellus sollicitudin
+        \nvel erat non condimentum. Aliquam risus est, iaculis nec eleifend nec,
+        \nmattis in nulla. Pellentesque suscipit ipsum tortor.
+        \nEtiam ac felis sed ligula imperdiet dignissim. Etiam sit amet orci mollis,
+        \nfermentum nibh in, fringilla leo. Mauris laoreet condimentum ex,
+        \neu ultrices erat bibendum id. Mauris sit amet sem eu ligula fringilla posuere.
+        \nPraesent nec luctus massa, vel volutpat libero. Nulla ac lorem congue,
+        \ntincidunt ex vitae, ultrices ante. Praesent tristique fringilla nibh,
+        \nid molestie odio accumsan vel. Nam non eros volutpat, dictum risus a,
+        \ntempus ipsum. Nam vitae semper sem, a sodales ex. In euismod leo non ipsum sagittis rutrum.
+        \nDonec mattis, ligula venenatis vehicula consequat, nibh erat bibendum arcu,
+        \nquis tempor eros lorem quis ligula. Vestibulum tincidunt enim et cursus molestie.
+        \nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        \nhimenaeos. Aliquam non metus tellus.
+        \nDonec in malesuada tellus. Sed commodo rutrum nisi eu volutpat.
+        \nVivamus ultrices, nunc id consequat semper, purus dolor viverra tortor,
+        \nmattis tempor augue odio ut leo. Etiam sit amet diam consectetur,
+        \nsagittis purus nec, semper lorem. Integer euismod odio nisi,
+        \nnon aliquam elit tempus at. Pellentesque non placerat orci. Etiam vehicula neque sed
+        \nnulla suscipit viverra. Morbi ut faucibus justo, ac feugiat massa. Integer turpis est,
+        \nviverra quis eros et, tincidunt viverra purus. Sed at ullamcorper erat,
+        \neget fermentum magna.
+        \nAliquam erat volutpat. Quisque et elementum mi. Curabitur posuere laoreet cursus.
+        \nPhasellus euismod enim sit amet diam pharetra gravida. Suspendisse non est volutpat,
+        \nplacerat elit eget, lacinia purus. Morbi eu ante tincidunt, mollis tellus volutpat,
+        \ntristique orci. Aliquam pretium facilisis dolor in tincidunt. Vivamus non maximus arcu.
+        \nAenean porttitor interdum mi a porttitor. Morbi eget mauris arcu. Donec vel elit id
+        \nligula euismod auctor vitae vel velit. Duis sodales turpis et quam fermentum,
+        \neu hendrerit nibh auctor. Ut vehicula arcu at nisi eleifend, eu tristique leo ullamcorper.
+        \nNullam tincidunt ligula tortor, at rhoncus ligula euismod vitae.
+        \nVivamus sed dictum libero, ut euismod ligula.
+        \nVivamus eget risus metus. Vivamus placerat dictum elit. Duis blandit dignissim porta.
+        \nNulla at feugiat enim. Phasellus efficitur nulla purus, et dapibus risus vestibulum ut.
+        \nSed massa erat, feugiat ac urna sit amet, vulputate hendrerit ante.
+        \nFusce elit libero, pretium et dui id, iaculis venenatis augue.
+        \nPhasellus odio ligula, viverra ut eleifend eu, lobortis iaculis lectus.
+    </string>
+    <string name="nickname_text">What is your nickname?</string>
+    <string name="done">Done</string>
+</resources>
