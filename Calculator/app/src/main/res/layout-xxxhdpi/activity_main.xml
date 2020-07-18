@@ -15,9 +15,9 @@
         android:ems="10"
         android:gravity="right"
         android:inputType="textPersonName"
-        android:paddingTop="150dp"
+        android:paddingTop="175dp"
         android:paddingRight="20dp"
-        android:paddingBottom="60dp"
+        android:paddingBottom="30dp"
         android:text="0"
         android:textColor="@android:color/background_light"
         android:textSize="30sp" />
